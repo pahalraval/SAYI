@@ -6,11 +6,13 @@
     <title>SAYI</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Laila:wght@400;700&display=swap" rel="stylesheet">
+   
+    <body>
     <header>
         <div class="header-content">
-            <a href="index.html">
+            <a class="header-logo-container" href="index.html">
                 <img src="images/SAYI.png" alt="SAYI Logo" class="header-logo">
             </a>
         </div>
@@ -40,7 +42,7 @@
             <h2 style="text-align: center;">About Us</h2>
             <p >The South Asian Youth Institute (SAYI) is a youth development organization based worldwide. We are motivated to teach youth about different South Asian cultures and give them a chance to speak about ongoing issues around the world regarding race, gender, class, and more. In this organization, we will be supporting each other through academic challenges as well as challenges we face throughout our daily lives. This organization will allow all youth, South Asian or not, to connect with one another.</p>
             <div class="button-container">
-            <button id="learn-more-btn" onclick="window.open('http://127.0.0.1:8080/learnmore.html', '_blank'); return false;"> Learn More</button>
+                <a id="learn-more-btn" href="learnmore.html" target="_blank">Learn More</a>
             </div>
         </section>
 
@@ -68,5 +70,5 @@
         <p>&copy; 2024 SOUTH ASIAN YOUTH INSTITUTE. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
-</body>
+    </body>
 </html>

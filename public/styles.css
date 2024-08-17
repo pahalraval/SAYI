@@ -205,6 +205,8 @@ button {
     font-size: 1.2em;
     cursor: pointer;
     transition: background-color 0.3s;
+    text-decoration:none;
+    text-align:center;
 }
 
 .button-container {
@@ -465,14 +467,20 @@ body.index, body.mission, body.contact {
 
 /* header specific styles */
 .header-content {
-    display: flex;
+    display: flex !important;
     align-items: center;
     justify-content: flex-start;
     padding-left: 20px; 
 }
 
+.header-logo-container {
+    height:60px;
+    min-height:60px;
+    max-height:auto;
+}
+
 .header-logo {
-    max-height: 50px;
+    height:100%;
     margin-right: 20px; /* space between the logo and the title */
 }
 
